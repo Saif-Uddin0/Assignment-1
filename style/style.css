@@ -268,3 +268,31 @@ nav{
     width: 535px;
 }
 
+/*Footer part */
+footer{
+    background-color: #FFFFFF;
+    max-width: 1600px;
+    height: 100%;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.hover-use:hover{
+    
+    cursor:pointer;
+}
+.last-footer-section{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.last-footer-title{
+    color: #4E47FF;
+    font-size: 100px;
+}
+.last-footer-para{
+    margin-top: -50px;
+}
