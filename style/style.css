@@ -217,3 +217,54 @@ nav{
 .btn-bottom{
     padding-top: 10px;
 }
+
+/*Sixth part */
+
+
+.footer-colum{
+    display: flex;
+    justify-content: space-between;
+    margin: 92px 150px;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    gap: auto;
+}
+.form-part{
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.footer-section-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+.footer-colum input[type="text"], .footer-colum input[type="email"]{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 497px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.footer-colum textarea{
+    height: 120px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 497px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.btn-get-in-touch{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    width: 535px;
+}
+
