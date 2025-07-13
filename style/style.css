@@ -11,13 +11,16 @@
 
 /*header section*/
 
-header{
+.header{
     background-image: url('../style/asset/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 698px;
     width: 1470px;
-    margin: 0 0 ;}
+    margin: 0 auto ;
+    
+}
+
 .title-header{
     text-align: center;
     padding-top: 150px;
@@ -25,6 +28,8 @@ header{
 .header-greting{
     font-weight: bold;
     font-size: 65px;
+    text-align: center;
+    
 }
 
 nav{
@@ -59,15 +64,19 @@ nav{
 .banner-container{
     display: flex;
     justify-content: space-between;
-    margin: 100px;
+    margin-top: 116px;
+    margin-right: 0px;
+    margin-bottom: 116px;
+    margin-left: 120px;
     padding: 20px;
-    gap: 50px;
+    gap: 70px ;
 }
 .banner-img{
     width: 403px;
     height: 328px;
     border-radius: 50px;
     margin-right: 159px;
+    box-shadow: 5px 5px 5px #252432;
 }
 .banner-title{
     font-weight: bold;
@@ -80,3 +89,42 @@ nav{
     color: #a7a6ae;
     
 }
+
+/*3rd part*/
+.number-section{
+    background-color:#cccbf0 ;
+    width: 1140;
+    height: 306px;
+    margin: 116px 159px 137px 141px ;
+    border-radius: 5px;
+    
+    
+}
+.third-part-banner
+{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 50 142;
+    
+}
+.number-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    padding-top: 50px;
+}
+.number-ratio{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+}
+.numbers{
+    padding: 0px;
+    text-align: center;
+    margin: 0;
+}
+
