@@ -106,7 +106,7 @@ nav{
     display: flex;
     justify-content: space-around;
     gap: 50px;
-    padding: 50 142;
+    padding-bottom:50px ;
     
 }
 .number-title{
@@ -127,4 +127,59 @@ nav{
     text-align: center;
     margin: 0;
 }
+
+/*4th part*/
+.card-section{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+
+}
+.fourth-part-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+.card-box{
+    width: 366px;
+    height: 180px;
+    background-color: #F2EDED;
+    padding: 18px;
+    border-radius: 20px;
+    
+}
+/*shared color*/
+.p-des{
+    margin-top: -16px;
+    color: #a7a6ae;
+
+}
+.img-{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.img-main{
+    display: flex;
+    margin: 0;
+    height: 46px;
+    width: 318px;
+    
+}
+.card-title
+{
+    color: #1E1E1E;
+    font-weight: bold;
+}
+.card-des{
+    color: #1E1E1E;
+}
+.card-footer
+{
+    margin-left: 5px;
+    /* padding: 4px; */
+    margin-top: -18px;
+}
+
 
